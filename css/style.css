@@ -759,7 +759,7 @@ ol {
 	top: 50%;
 	width: 605px;
 	height: 404px;
-	background-image: url(../img/feature/car.png);
+	/*background-image: url(../img/feature/car.png);*/
 	content: "";
 	-webkit-transform: translate(-300px, -202px);
 	-ms-transform: translate(-300px, -202px);
