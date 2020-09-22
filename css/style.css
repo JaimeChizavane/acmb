@@ -759,7 +759,7 @@ ol {
 	top: 50%;
 	width: 605px;
 	height: 404px;
-	/*background-image: url(../img/feature/car.png);*/
+	background-image: url(../img/feature/car-2.png);
 	content: "";
 	-webkit-transform: translate(-300px, -202px);
 	-ms-transform: translate(-300px, -202px);
@@ -1601,12 +1601,13 @@ ol {
 -----------------------*/
 
 .about {
-	padding-bottom: 70px;
+	padding-bottom: 20px;
     
 }
 
 .section-title.about-title h2 {
-	line-height: 55px;
+	line-height: 30px;
+    color: #ed1c24;
 }
 
 .section-title.about-title p {
@@ -1622,16 +1623,16 @@ ol {
 
 .about__feature__item {
 	text-align: left;
-	margin-bottom: 30px;
-	padding: 0 20px;
-     font-size: 22px;
+	margin-bottom: 10px;
+	padding: 0 30px;
+     font-size: 20px;
 }
 
 .about__feature__item h5 {
-	font-size: 23px;
+	font-size: 20px;
 	color: #353535;
 	font-weight: 700;
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-bottom: 15px;
 }
 
@@ -1650,22 +1651,21 @@ ol {
 }
 
 .about__item {
-	margin-bottom: 30px;
+	margin-bottom: 10px;
     
 }
 
 .about__item h5 {
-	font-size: 22px;
-	color: #353535;
+	font-size: 34px;
+	color: #ed1c24;
 	font-weight: 700;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 
 .about__item p {
-	margin-bottom: 0;
+	margin-bottom: 10;
      font-size: 20px;
-    
-}
+    }
 
 /*---------------------
   Call
