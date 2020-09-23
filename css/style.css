@@ -102,6 +102,25 @@ ol {
 	margin: 0;
 }
 
+
+/*---------------------
+  Maps CSS
+-----------------------*/
+.map-container-7{
+overflow:hidden;
+padding-bottom:10%;
+position:relative;
+height:0;
+}
+.map-container-7 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+
 /*---------------------
   Helper CSS
 -----------------------*/
