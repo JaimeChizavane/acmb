@@ -458,14 +458,14 @@ ol {
 	font-size: 16px;
 	color: #353535;
 	font-weight: 900;
-	display: block;
+	display: inline;
 	padding: 5px 0;
 	text-transform: uppercase;
 	position: relative;
 }
 
 .header__menu ul li a:after {
-	position: absolute;
+	position: relative;
 	left: 0;
 	bottom: 0;
 	height: 2px;
