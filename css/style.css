@@ -477,14 +477,14 @@ position:absolute;
 	font-size: 16px;
 	color: #353535;
 	font-weight: 900;
-	display: inline;
+	display: inline; /* Aqui muda o tamanho do menu (dropbox)*/
 	padding: 5px 0;
 	text-transform: uppercase;
 	position: relative;
 }
 
 .header__menu ul li a:after {
-	position: relative;
+	position: absolute;
 	left: 0;
 	bottom: 0;
 	height: 2px;
@@ -774,8 +774,8 @@ position:absolute;
 
 .feature:after {
 	position: absolute;
-	left: 50%;
-	top: 50%;
+	left: 48%;
+	top: 48%;
 	width: 605px;
 	height: 404px;
 	background-image: url(../img/feature/car-2.png);
@@ -1611,7 +1611,7 @@ position:absolute;
 
 .breadcrumb__links span {
 	font-size: 15px;
-	color: #727171;
+	color: #ed1c24;
 	display: inline-block;
 }
 
