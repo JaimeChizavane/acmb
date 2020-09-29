@@ -168,24 +168,26 @@
                             </p>
                         </div>
                         <span>PRINCIPAIS CARACTERÍSTICAS</span><br>
-                                    <p>- Idade do Cliente: 18 a 65 anos;<br>
-		                              - Volume: Conforme a aprovação;<br>
-		                              - Prazo: Minimo de 1 e máximo de 12 meses;<br>
-                                    - Taxa: Taxa de juro mensal fixa;
-                                    - Rendas: Fixas e ajustadas ao seu rendimento líquido 
+                                    <p><i class="fa fa-chevron-circle-right" style="color:red;"></i>Idade do Cliente: 18 a 65 anos;<br>
+		                              <i class="fa fa-chevron-circle-right" style="color:red;"></i> Volume: Conforme a aprovação;<br>
+		                              <i class="fa fa-chevron-circle-right" style="color:red;"></i> Prazo: Minimo de 1 e máximo de 12 meses;<br>
+                                    <i class="fa fa-chevron-circle-right" style="color:red;"></i> Taxa: Taxa de juro mensal fixa;<br/>
+                                    <i class="fa fa-chevron-circle-right" style="color:red;"></i> Rendas: Fixas e ajustadas ao seu rendimento líquido 
                                        durante todo o período de vigência do contrato;<br>
-		                              - Garantias: * Livrança em branco (obrigatório) <br>
-                                                 * Hipoteca de imóvel/Penhor DP<br>
-		                              - Possibilidade de liquidações antecipadas;<br>
-                                    - Seguro de protecção ao Crédito que cobrira os seus 
+		                           <i class="fa fa-chevron-circle-right" style="color:red;"></i> Garantias: * Livrança em branco (obrigatório) <br>
+                                    <i class="fa fa-chevron-circle-right" style="color:red;"></i>Hipoteca de imóvel/Penhor DP<br>
+		                           <i class="fa fa-chevron-circle-right" style="color:red;"></i>Possibilidade de liquidações antecipadas;<br/>
+                                   <i class="fa fa-chevron-circle-right" style="color:red;"></i>Seguro de protecção ao Crédito que cobrira os seus 
                                encargos em caso de necessidades, protegendo-o
                             a si e aos seus.<br></p>
                     </div>
                 </div>
+                
+                <!--Formulario de simulacao-->
                 <div class="col-lg-6 col-md-6">
                     <h2>Simulador</h2>
                     <div class="contact__form">
-                        <form action="#">
+                        <!--<form action="#">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <input type="text" placeholder="Nome">
@@ -194,13 +196,113 @@
                                     <input type="text" placeholder="Email">
                                 </div>
                                 <div class="col-lg-6">
-                                    <input type="text" placeholder="Telefone">
+                                    <input type="text" placeholder="Telemovel">
                                 </div>
+                                
+                                <div class="col-lg-6">
+                                <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                <span class="input-group-text">+258</span>
+                              </div>
+                              <input type="text" class="form-control" aria-label="Deve conter numeros" placeholder="Telemovel">
+                                </div>
+                                </div>
+                                
+                                <div class="col-lg-6">
+                                <div class="form-group">
+                                <label for="exampleFormControlSelect1">Prazo do crédito</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option>6 meses</option>
+                                  <option>12 meses</option>
+                                  <option>24 meses</option>
+                                  <option>36 meses</option>
+                                  <option>48 meses</option>
+                                  <option>60 meses</option>
+                                </select>
+                                </div>
+                                </div>
+                                
                             </div>
                             <input type="text" placeholder="Subject">
                             <textarea placeholder="Valor..."></textarea>
                             <button type="submit" class="site-btn"><a href="#">Enviar</a></button>
-                        </form>
+                        </form>-->
+                        
+                        <form class="needs-validation" novalidate>
+                              <div class="form-row">
+                                <div class="col-md-4 mb-3">
+                                  <label for="validationCustom01">Primeiro nome</label>
+                                  <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Nome" required>
+                                  <div class="valid-feedback">
+                                    Okay! Parece bem!
+                                  </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                  <label for="validationCustom02">Apelido</label>
+                                  <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Apelido" required>
+                                  <div class="valid-feedback">
+                                    Okay! Parece bem!
+                                  </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                  <label for="validationCustomUsername">Email</label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="validationCustomUsername" placeholder="Email" aria-describedby="inputGroupPrepend" required>
+                                    <div class="invalid-feedback">
+                                      Email nao valido!
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                  <label for="validationCustomUsername">Telemovel</label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text" id="inputGroupPrepend">+258</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="validationCustomUsername" placeholder="Telefone" aria-describedby="inputGroupPrepend" required>
+                                    <div class="invalid-feedback">
+                                      Numero nao valido!
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                  <label for="validationCustom04">Valor a pedir</label>
+                                  <input type="text" class="form-control" id="validationCustom04" placeholder="Valor" required>
+                                  <div class="invalid-feedback">
+                                    Insira um valor valido (ex: 10,000 MZN).
+                                  </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                  <label for="validationCustom05">Prazo a pagar</label>
+                                 <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                    <option selected>Escolher...</option>
+                                    <option value="1">6 meses</option>
+                                    <option value="2">12 meses</option>
+                                    <option value="3">24 meses</option><option value="3">36 meses</option><option value="3">48 meses</option><option value="3">60 meses</option>
+                                  </select>
+                                  <div class="invalid-feedback">
+                                    Selecione um prazo valido.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                  <label class="form-check-label" for="invalidCheck">
+                                    Termos e Condições
+                                  </label>
+                                  <div class="invalid-feedback">
+                                    Deverá aceitar os termos de condições.
+                                  </div>
+                                </div>
+                              </div>
+                              <button class="btn btn-primary" type="submit">Enviar</button>
+                            </form>
                     </div>
                 </div>
             </div>
@@ -310,6 +412,27 @@
         </div>
     </div>
     <!-- Search End -->
+    
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
 
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>

@@ -535,11 +535,10 @@ position:absolute;
 
 .hero__text {
 	padding-top: 0px;
-    background-color: #000000;
-    opacity: 0.7;
+    opacity: 0.9;
     border-style: solid;
     border-color: #FFFFFF;
-    border-width: 2px;
+    border-width: 0px;
   
 }
 
@@ -558,8 +557,9 @@ position:absolute;
 }
 
 .hero__text__title {
-	margin-bottom: 18px;
+	margin-bottom: 200px;
     text-align: center;
+
 }
 
 .hero__text__title span {
@@ -570,7 +570,7 @@ position:absolute;
 }
 
 .hero__text__title h2 {
-	font-size: 40px;
+	font-size: 55px;
 	color: #ffffff;
 	font-weight: 700;
 	margin-top: 10px;
