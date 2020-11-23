@@ -1635,7 +1635,7 @@ position:absolute;
 -----------------------*/
 
 .about {
-	padding-bottom: 20px;
+	padding-bottom: 0px;
     
 }
 
@@ -1651,14 +1651,14 @@ position:absolute;
 }
 
 .about__feature {
-	padding-bottom: 60px;
+	padding-bottom: 0px;
    
 }
 
 .about__feature__item {
 	text-align: left;
-	margin-bottom: 10px;
-	padding: 0 30px;
+	margin-bottom: 0px;
+	padding: 0 0px;
      font-size: 20px;
 }
 
