@@ -2389,6 +2389,7 @@ position:absolute;
 
 .blog__item {
 	margin-bottom: 35px;
+   
 }
 
 .blog__item__pic {
@@ -4248,7 +4249,11 @@ body{background-color:#f1f1f2}
 }
 
 /*********************** Demo - 21 *******************/
-.box21{text-align:center;position:relative}
+.box21{
+text-align:center;
+position:relative;
+
+}
 .box21:after,.box21:before{content:"";width:2px;height:2px;border-radius:50%;background:rgba(0,0,0,.35);position:absolute;top:50%;left:50%;-webkit-transform:scale(0);-moz-transform:scale(0);-ms-transform:scale(0);-o-transform:scale(0);transform:scale(0)}
 .box21:hover:after,.box21:hover:before{-webkit-transform:scale(400);-moz-transform:scale(400);-ms-transform:scale(400);-o-transform:scale(400);transform:scale(400);color: red;}
 .box21:before{-o-transition:all .5s linear .3s;-moz-transition:all .5s linear .3s;-ms-transition:all .5s linear .3s;-webkit-transition:all .5s linear .3s;transition:all .5s linear .3s}
