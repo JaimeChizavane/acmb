@@ -548,7 +548,7 @@ position:absolute;
 	padding-top: 0px;
     opacity: 0.9;
     border-style: solid;
-    border-color: #FFFFFF;
+    border-color: #000000;
     border-width: 0px;
   
 }
@@ -568,7 +568,7 @@ position:absolute;
 }
 
 .hero__text__title {
-	margin-bottom: 200px;
+	margin-bottom: 20px;
     text-align: center;
 
 }
