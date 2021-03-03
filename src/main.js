@@ -4,6 +4,8 @@ import './registerServiceWorker'
 import router from './router'
 
 Vue.config.productionTip = false
+//Event Share
+Vue.prototype.$eventHub = new Vue()
 
 new Vue({
   router,
