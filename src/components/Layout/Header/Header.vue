@@ -6,15 +6,15 @@
         <div class="row">
           <div class="col-lg-7">
             <ul class="header__top__widget">
-              <li><i class="fa fa-clock-o"></i> Aberto: 08:00 as 15:30</li>
-              <li><i class="fa fa-envelope-o"></i> credito@acmicrobanco.co.mz</li>
+              <li><i class="fa fa-clock-o"></i> Aberto: {{ info.working_hours }}</li>
+              <li><i class="fa fa-envelope-o"></i>{{ info.email }}</li>
             </ul>
           </div>
           <div class="col-lg-5">
             <div class="header__top__right">
               <div class="header__top__phone">
                 <i class="fa fa-phone"></i>
-                <span>(+258) 21316768</span>
+                <span>{{ info.phone }}</span>
               </div>
               <div class="header__top__social">
                 <a href="#"><i class="fa fa-facebook"></i></a>
@@ -29,9 +29,7 @@
     </div>
 
 
-
     <div class="container1">
-
 
 
       <div class="col-lg-4">
@@ -45,8 +43,11 @@
           <div class="header__nav">
             <nav class="header__menu">
               <ul>
-                <li class="active"><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">Sobre Nós</a>
+                <li>
+                  <router-link :to="{name: 'Home'}" active-class="active">Home</router-link>
+                </li>
+                <li>
+                  <router-link :to="{name: 'About'}">Sobre Nós</router-link>
                   <ul class="dropdown">
                     <li><a href="about.html#section1">História</a></li>
                     <li><a href="about.html#section2">Missão </a></li>
@@ -69,8 +70,8 @@
 
               <a href="#" class="primary-btn">Simular</a>
               <div class="header__nav__widget__btn">
-                <!-- <a href="#"><i class="fa fa-cart-plus"></i></a>-->
-                <a href="#" class="search-switch"><i class="fa fa-search"></i></a>
+                <!--                 <a href="#"><i class="fa fa-cart-plus"></i></a>-->
+                <a href="#" @click.prevent="openSearch" class="search-switch ml-4"><i class="fa fa-search"></i></a>
               </div>
             </div>
           </div>
@@ -85,8 +86,20 @@
 </template>
 
 <script>
+import info from '@/data/info.json'
+
 export default {
-name: "m-header"
+  name: "m-header",
+  methods: {
+    openSearch() {
+      window.$('.search-model').fadeIn(400);
+    }
+  },
+  data() {
+    return {
+      info: info
+    }
+  }
 }
 </script>
 
